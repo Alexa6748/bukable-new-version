@@ -221,21 +221,19 @@ border-radius: 30px;
 }
 
 .overviews__item .text {
-	height: 192px;
-	width: 350px;
-	border-radius: 10px;
-	text-align: center;
-	background: #FFFFFF;
-	padding: 42px 40px 30px 40px;
-	position: relative;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 24px;
-	/* or 133% */
-	font-feature-settings: 'salt' on, 'liga' off;
-	/* Text / Gray 900 */
-	color: #18191F;
+    height: 192px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 42px 40px 30px 40px;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #18191F;
+    font-family: 'Poppins';
 }
 
 .overviews__item .arrow {
