@@ -234,6 +234,7 @@ border-radius: 30px;
     line-height: 24px;
     color: #18191F;
     font-family: 'Poppins';
+	box-shadow: 0px 10px 20px #e6e1eb;
 }
 
 .overviews__item .arrow {
