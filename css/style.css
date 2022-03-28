@@ -9,6 +9,26 @@ header {
 	border-bottom: 1px solid #ffffff1a;
 }
 
+.bukableColor {
+	color: #9A05EB
+}
+
+.form-button {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 24px;
+
+    position: absolute;
+    width: 158px;
+    height: 45px;
+    left: 194px;
+    top: 448px;
+
+background: #9A05EB;
+border-radius: 30px;
+}
+
 .logo {
 	padding-right: 72px;
 }
@@ -48,6 +68,7 @@ header {
 	background: #9A05EB;
 }
 
+
 .content-top {
 	padding: 70px 127px 119px;
 	background: url(../img/bg.svg)#ffffff 0px -70px no-repeat;
@@ -55,7 +76,7 @@ header {
 	color: #fff;
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: flex-end;
     align-items: center;
 	gap: 32px;
 }
@@ -143,10 +164,12 @@ header {
 .content-get-access {
 	padding: 0 130px 44px;
 	gap: 46px;
+	background-color: #F1E4FF;
 }
 
 .content-get-access .title {
 	padding-bottom: 9px;
+	padding-top: 46px;
 }
 
 .sale-card {
@@ -185,7 +208,7 @@ header {
 /*Wall of love*/
 
 .wall-of-love {
-	background: #F4F5F7;
+	background: #F1E4FF;
 }
 
 .wall-of-love .wrapper {
@@ -409,8 +432,8 @@ footer .footer-bottom .social-links {
 
 /*Commons*/
 
-.radius-5 {
-	border-radius: 5px;
+.radius-form-button {
+	border-radius: 30px;
 	padding: 15px 24px;
 	font-weight: 500 !important;
 	font-size: 14px !important;
@@ -432,9 +455,10 @@ footer .footer-bottom .social-links {
 	font-size: 48px;
 	line-height: 64px;
 	/* or 133% */
-	text-align: center;
+	text-align: left;
 	font-feature-settings: 'salt' on, 'liga' off;
 	color: #000000;
+	padding-bottom: 15px;
 }
 
 .text-description {
@@ -447,6 +471,22 @@ footer .footer-bottom .social-links {
 	font-feature-settings: 'salt' on, 'liga' off;
 	/* Text / Gray 900 */
 	color: #18191F;
+}
+
+.description-content-get-access {
+	font-style: normal;
+	/* identical to box height, or 160% */
+	text-align: left;
+	font-feature-settings: 'salt' on, 'liga' off;
+	/* Text / Gray 900 */
+	color: #18191F;
+	font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+/* or 139% */
+
+letter-spacing: -0.5px;
 }
 
 .link {
@@ -486,7 +526,7 @@ footer .footer-bottom .social-links {
 		color: #fff;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: flex-end;
 		padding-left: 35px;
 		padding-right: 35px;
 		padding-top: 81px;
@@ -537,6 +577,9 @@ footer .footer-bottom .social-links {
 		height: 100%;
 	}
 
+	.description-content-get-access {
+		text-align: center;
+	}
 	.content-description {
 		padding: 37px 13px;
 	}
@@ -593,10 +636,11 @@ footer .footer-bottom .social-links {
 		padding: 25px 13px;
 		flex-direction: column;
 		text-align: center;
+		background-color: #F1E4FF;
 	}
 
 	.sale-card {
-		gap: 30px
+		gap: 30px;
 	}
 
 	.sale-card .icon {
@@ -611,6 +655,7 @@ footer .footer-bottom .social-links {
 		width: 100%;
 		height: auto;
 	}
+    
 
 	.terms, .terms a {
 		font-size: 9px;

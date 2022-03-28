@@ -28,29 +28,29 @@
          </div>
          <div class="menu d-none d-sm-none d-lg-block">
             <ul id="nav" class="menu-items">
-               <li data-link="STUDENT" class="href active">For Students</li>
-               <li data-link="BUSINESS" class="href">For Business</li>
-               <li> <a href="mailto:hello@bukable.co" style="color: white;">Contact</a></li></ul>
+               <li> <a class="nav-link" href="#Students" style="color: white; text-decoration: none;">For Students</a></li>
+               <li><a class="nav-link" href="#Business"style="color: white; text-decoration: none;">For Business</a></li>
+               <li> <a href="mailto:hello@bukable.co" style="color: white; text-decoration: none;">Contact</a></li></ul>
          </div>
          <div class="navbar bg-black dropdown d-sm d-lg-none">
             <button button class="btn dropdown-toggle" type="button" id="dropdownMenu2" 
             data-bs-toggle="dropdown" aria-expanded="false">
             <img src="./img/menu_mobile.svg" style="background-color: black;"></button>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
-               <li><button class="dropdown-item" type="button">For Students</button></li>
-               <li><button class="dropdown-item" type="button">For Business</button></li>
-               <li><a class="dropdown-item" href="mailto:hello@bukable.co" role="button" style="color:black;">Contact</a></li>
+               <li> <a class=" dropdown-item nav-link" href="#Students" style="color: black; text-decoration: none;">For Students</a></li>
+               <li><a class="dropdown-item nav-link" href="#Business"style="color: black; text-decoration: none;">For Business</a></li>
+               <li> <a class="dropdown-item"href="mailto:hello@bukable.co" style="color: black; text-decoration: none;">Contact</a></li>
             </ul>
          </div>
       </header>
       <div class="wrapper">
 
-         <div class="content-top d-flex flex-column">
+         <div class="content-top d-flex flex-column justify-content-end">
             <div class="d-flex align-items-center flex-column">
-               <h1>The community where university students kick-start their careers</h1>
+               <h1>The community where university<br> students kick-start their careers</h1>
                <div class="description">
-                  <p class="content">Bukable is a community where university students build their skills and get access to global opportunities like entry-level jobs, internships, 
-               deals from companies and get career mentorship from mentors.</p>
+                  <p class="content">Bukable is a community where university students build their skills and get access to global opportunities 
+                  <br>like entry-level jobs, internships, deals from companies and get career mentorship from mentors.</p>
                </div>
                <div class="action-button pt-3">
                   <button class="radius-30" id="scroll">Get Early Access</button>
@@ -62,16 +62,20 @@
             </div>
          </div>
 
-         <div class="content-get-access d-flex justify-content-between">
-            <div class="left-sidebar d-flex flex-column align-items-start">
+         <div class="content-get-access d-flex justify-content-between" id="Students" >
+
+            <div class="left-sidebar d-flex flex-column align-items-right">
                <div class="title">
-                  <div class="section-title">Students get access <br/> to unbeatable offers</div>
+                  <div class="section-title">Students on <span class="bukableColor">Bukable</span> get access to unbeatable offers</div>
+                  <div class="description"><p class="description-content-get-access">Join a community to build your skills and get access to global<br>
+                      opportunities from top companies and mentors to kick start your career. </p></div>
                </div>
-               <div class="sale-img">
+               <div class="sale-img d-none d-sm-none d-lg-block">
                   <img src="./img/Desktop-dark(1) 2.svg">
                </div>
             </div>
-            <div class="right-sidebar d-flex flex-column">
+
+            <div class="right-sidebar d-flex flex-column justify-content-end">
                <div class="sale-card d-flex flex-nowrap align-items-center ">
                   <div class="icon">
                      <img src="./img/user.svg">
@@ -81,8 +85,7 @@
                         VERIFIED IDENTITY
                      </div>
                      <div class="text">
-                        Your student profile gives you access to opportunities from top companies.
-                     </div>
+                        Create your student profile to get a student identity to access opportunities from top companies.</div>
                   </div>
                </div>
                <div class="sale-card d-flex flex-nowrap align-items-center ">
@@ -94,8 +97,7 @@
                         paid internships
                      </div>
                      <div class="text">
-                        Find latest paid internships and entry-level job offers from top companies.
-                     </div>
+                        Find the latest paid internship + entry-level job offers from top companies to kick-start your career.</div>
                   </div>
                </div>
                <div class="sale-card d-flex flex-nowrap align-items-center ">
@@ -104,20 +106,31 @@
                   </div>
                   <div class="description">
                      <div class="heading pb-2">
-                        discount offers
+                        Company freebies
                      </div>
                      <div class="text">
-                        Get access to exclusive discounts and deals from top companies and retailers.
+                        Get access to exclusive freebies, discounts and deals shared by top companies and retailers on Bukable.
                      </div>
                   </div>
                </div>
+               <div class="sale-img d-lg-none d-sm-block">
+                  <img src="./img/Desktop-dark(1) 2.svg">
+               </div>
             </div>
+            
+
          </div>
 
-         <div class="content-description">
-            <div class="section-title">
-               We’ve made working with <br/> talented students effortless
+         <div class="content-description" id="Business">
+
+            <div>
+               <div class="section-title text-center">
+               We’ve made working with <br/> <span class="bukableColor">talented students</span> effortless
+               </div>
+               <div class="description"><p class="description-content-get-access text-center">Businesses owners can access a pool of vetted students and volunteers, share<br>
+                   exclusive company discounts, give mentorship, offer entry-level jobs or internships.</p></div>
             </div>
+
             <div class="description-items">
                <div class="description-items__item bg_1">
                   <h2>Hire Faster</h2>
@@ -129,16 +142,16 @@
                </div>
                <div class="description-items__item bg_3">
                   <h2>Share Discounts</h2>
-                  <p>Harness the Power of the Student Consumer Community. Create compelling offers for students.</p>
+                  <p>Easy way to harness the power of the student consumer community and create compelling offers for them.</p>
                </div>
             </div>
          </div>
 
          <div class="wall-of-love">
             <div class="wrapper">
-               <div class="section-title">Wall of love</div>
+               <div class="section-title text-center">Wall of love</div>
                <div class="text-description">
-                  What people say about Bukable
+                  What people say about <span class="bukableColor">Bukable</span>
                </div>
                <div class="overviews owl-carousel owl-theme">
                   <div class="overviews__item d-flex flex-column align-items-center">
@@ -155,7 +168,7 @@
                            Aanikh Kler
                         </div>
                         <div class="company">
-                           COO at Trufan
+                           <span class="bukableColor">COO at Trufan</span>
                         </div>
                      </div>
                   </div>
@@ -170,10 +183,10 @@
                      </div>
                      <div class="about">
                         <div class="name">
-                           Jareer Samad
+                            Samad
                         </div>
                         <div class="company">
-                           Product Manager at StepSetGo
+                           <span class="bukableColor">Product Manager at StepSetGo</span>
                         </div>
                      </div>
                   </div>
@@ -191,7 +204,7 @@
                            Sriraman
                         </div>
                         <div class="company">
-                           Software Engineer at LifeON24
+                           <span class="bukableColor">Software Engineer at LifeON24</span>
                         </div>
                      </div>
                   </div>
@@ -199,33 +212,33 @@
             </div>
          </div>
          <div class="form-wrapper">
-            <div class="section-title">
-               Join the waitlist today
+            <div class="section-title text-center">
+               Get <span class="bukableColor">early access</span> and be notified when we launch
             </div>
             <div class="form-content d-flex flex-column">
                <form id="contact" action="/" method="post" name="contact">
                   <div class="input">
                      <select required name="type">
-                        <option value="" disabled selected>Select your option</option>
+                        <option value="" disabled selected>Student or Business?</option>
                         <option value="STUDENT">Student</option>
                         <option value="BUSINESS">Business</option>
                      </select>
                   </div>
                   <div class="input">
-                     <input type="text" name="name" placeholder="Your name" required/>
+                     <input type="text" name="name" placeholder="Full name" required/>
                   </div>
                   <div class="input">
-                     <input type="email" name="email" placeholder="Your email address" required/>
+                     <input type="email" name="email" placeholder="Email address" required/>
                   </div>
-                  <div class="input">
+                  <div class="input d-flex justify-content-center align-items-center gap-2">
 
                      <input type="checkbox" name="tosAgreement" id="terms" required/>
                      <label for="terms" class="terms">
                         I understand and agree to the <a href="/" target="_blank" class="link">Bukable Terms of Service</a>
                      </label>
                   </div>
-                  <div class="action">
-                     <button class="radius-5" type="submit">Get Early Access</button>
+                  <div class="action d-flex justify-content-center">
+                     <button class="radius-form-button" type="submit">Get Early Access</button>
                   </div>
                </form>
             </div>
@@ -265,7 +278,7 @@
          </div>
          <div class="footer-bottom d-flex justify-content-between flex-column flex-md-row flex-wrap">
             <div class="rights d-flex align-items-center">
-               © 2021 Bukable, Inc. All rights reserved - Crafted with <img src="./img/heart.svg"> in Saint Petersburg <img src="./img/flag.svg">
+               © 2022 Bukable, Inc. All rights reserved
             </div>
             <div class="social-links d-flex justify-content-between d-none d-md-flex d-lg-flex d-xl-flex">
                <div class="fb">
