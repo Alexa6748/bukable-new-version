@@ -19,7 +19,7 @@ header {
 
 .menu-items {
 	display: flex;
-	gap: 46px;
+	gap: 50px;
 	font-weight: 700;
 	align-items: center;
 }
@@ -55,7 +55,8 @@ header {
 	color: #fff;
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: center;
+    align-items: center;
 	gap: 32px;
 }
 
@@ -65,12 +66,14 @@ header {
 	line-height: 80px;
 	letter-spacing: 0.5px;
 	padding-bottom: 13px;
+	text-align: center;
 }
 
 .content-top p {
 	font-size: 25px;
 	line-height: 35px;
 	letter-spacing: -0.5px;
+	text-align: center;
 }
 
 /* .content-top p:first-child {
@@ -514,10 +517,13 @@ footer .footer-bottom .social-links {
 		color: #FFFFFF;
 	}
 
-	.content-top .right-sidebar img {
+	.content-top .newimg img {
 		height: auto;
 		min-width: 310px;
     	width: 100%;
+		position: relative;
+        z-index: 10;
+        top: 50px;
 	}
 
 	.description-items {

@@ -21,7 +21,7 @@
       <title>Bukable</title>
    </head>
    <body>
-      <header class="d-flex justify-content-between">
+      <header class="d-flex justify-content-between align-items-center">
          <div class="logo">
             <img src="img/logo.png">
          </div>
@@ -31,24 +31,34 @@
                <li data-link="BUSINESS" class="href">For Business</li>
                <li> <a href="mailto:hello@bukable.co" style="color: white;">Contact</a></li></ul>
          </div>
+         <div class="navbar bg-dark dropdown d-sm d-lg-none">
+            <button button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" 
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./img/menu_mobile.svg" style="background-color: black;"></button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+               <li><button class="dropdown-item" type="button">For Students</button></li>
+            </ulv>
+         </div>
       </header>
       <div class="wrapper">
+
          <div class="content-top d-flex flex-column">
-            <div class="left-sidebar">
-               <h1>Your Partner for <br />Everything Student.</h1>
+            <div class="d-flex align-items-center flex-column">
+               <h1>The community where university students kick-start their careers</h1>
                <div class="description">
-                  <p class="content"><b>For Students:</b> Join a professional community to build<br/> your skills and get access to global opportunities from<br> top companies.</p>
-                  <p class="content" style="display: none"><b>For Business:</b> Get access to a pool of verified students,<br/> volunteers and share exclusive company discounts,<br/> entry-level jobs or internships.
-                  </p>
+                  <p class="content">Bukable is a community where university students build their skills and get access to global opportunities like entry-level jobs, internships, 
+               deals from companies and get career mentorship from mentors.</p>
                </div>
                <div class="action-button pt-3">
                   <button class="radius-30" id="scroll">Get Early Access</button>
                </div>
             </div>
-            <div class="right-sidebar">
-               <img src="./img/image-side-bar.svg" />
+            <div class="newimg d-flex">
+               <div>
+               <img src="./img/Desktop-dark 2.svg" /></div>
             </div>
          </div>
+
          <div class="content-description">
             <div class="section-title">
                We’ve made working with <br/> talented students effortless
