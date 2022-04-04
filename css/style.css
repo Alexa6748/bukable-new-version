@@ -536,6 +536,7 @@ letter-spacing: -0.5px;
 		padding-left: 35px;
 		padding-right: 35px;
 		padding-top: 81px;
+		font-family: "Poppins";
 	}
 	.content-top h1 {
 		font-style: normal;
@@ -612,6 +613,7 @@ letter-spacing: -0.5px;
 	}
 
 	.section-title {
+		font-family: "Poppins";
 		font-style: normal;
 		font-weight: 800;
 		font-size: 25px;
