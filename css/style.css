@@ -56,16 +56,21 @@ border-radius: 30px;
 }
 
 .wrapper button {
-	font-family: inherit;
+	font-family: 'Poppins';
 	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
+	font-weight: 700;
+	font-size: 14px;
 	line-height: 24px;
 	border: none;
 	color: #ffffff;
 	letter-spacing: -0.16px;
 	cursor: pointer;
 	background: #000000;
+	width: 180px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -432,6 +437,7 @@ footer .footer-bottom .social-links {
 /*Commons*/
 
 .radius-form-button {
+	width: 158px;
 	border-radius: 30px;
 	padding: 15px 24px;
 	font-weight: 500 !important;
@@ -449,11 +455,11 @@ footer .footer-bottom .social-links {
 }
 
 .section-title {
-	font-family: inherit;
+	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 800;
-	font-size: 48px;
-	line-height: 64px;
+	font-size: 40px;
+	line-height: 45px;
 	/* or 133% */
 	text-align: left;
 	font-feature-settings: 'salt' on, 'liga' off;
@@ -601,7 +607,9 @@ letter-spacing: -0.5px;
 		justify-content: center;
 	}
 
-
+    .radius-form-button {
+		width: 150px;
+	}
 
 	.section-title {
 		font-style: normal;
