@@ -4,8 +4,8 @@ header {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	background: linear-gradient(105.18deg, #000000 -2.04%, #000000 107.42%);
-	padding: 50px 126px 32px 50px;
+	background: linear-gradient(105.18deg, #9A05EB -2.04%, #9A05EB 107.42%);
+	padding: 50px 126px 32px;
 	border-bottom: 1px solid #ffffff1a;
 }
 
@@ -71,7 +71,7 @@ border-radius: 30px;
 
 .content-top {
 	padding: 70px 127px 119px;
-	background: url(../img/bg.svg)#ffffff 0px -70px no-repeat;
+	background: linear-gradient(105.18deg, #9A05EB -2.04%, #9A05EB 107.42%);
 	background-size: cover;
 	color: #fff;
 	display: flex;
