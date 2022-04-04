@@ -65,7 +65,7 @@ border-radius: 30px;
 	color: #ffffff;
 	letter-spacing: -0.16px;
 	cursor: pointer;
-	background: #9A05EB;
+	background: #000000;
 }
 
 
@@ -440,6 +440,7 @@ footer .footer-bottom .social-links {
 	/* identical to box height, or 143% */
 	font-feature-settings: 'salt' on, 'liga' off;
 	/* Default / White */
+	background-color: #9A05EB;
 }
 
 .radius-30 {
@@ -520,7 +521,7 @@ letter-spacing: -0.5px;
     	padding: 23px 0px 12px 22px;
 	}
 	.content-top {
-		background: url(../img/bg_mobile.svg)#ffffff 0px -70px no-repeat;
+		background: #9A05EB 0px -70px no-repeat;
 		background-size: cover;
 		color: #fff;
 		display: flex;
@@ -588,7 +589,7 @@ letter-spacing: -0.5px;
 	}
 
 	.wall-of-love .wrapper .overviews__item .text {
-		width: 100%;
+		width: 90%;
 	}
 
 
