@@ -1,4 +1,4 @@
-const validateForm = ()=> {
+/*const validateForm = ()=> {
     const form = document.getElementById("contact");
     form.noValidate = true;
     form.addEventListener('submit', function handleFormSubmit(event) {
@@ -14,6 +14,7 @@ const validateForm = ()=> {
       }
     });
 }
+*/
 
 const sendData = async(body) => {
     try {
@@ -58,6 +59,7 @@ $(document).ready(function (){
             }
         }
     });
+
 
     $("#scroll").click(function (){
         $('html, body').animate({
