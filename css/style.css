@@ -569,6 +569,10 @@ align-items: center;
 text-align: center;
 
 color: #FFFFFF;
+margin: 0px 0px 34px;
+	}
+	.light_box {
+		height: 0px;
 	}
     .newimg {
         height: auto;
@@ -576,13 +580,13 @@ color: #FFFFFF;
         z-index: 10;
         top: 0px;
         position: absolute;
-        height: 198px;
+        height: 99px !important;
         top: 0px;
         padding: 0 25px;
     }
     .action-button {
         padding-top: 30px !important;
-        padding-bottom: 50px;
+        padding-bottom: 98px;
         text-align: center;
     }
     header {
