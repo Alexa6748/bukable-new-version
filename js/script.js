@@ -47,6 +47,9 @@ $(document).ready(function (){
             0:{
                 items:1
             },
+            400: {
+                items:1
+            },
             600:{
                 items:1
             },
@@ -74,29 +77,4 @@ $(document).ready(function (){
     });
 
 })
-
-
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
-
- $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:5,
-    nav:false,
-    responsiveClass:true,
-    autoplay:true,
-    autoplayTimeout:2500,
-    responsive:{
-        0:{
-            items:1,
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:4
-        }
-    }
-});
 
