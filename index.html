@@ -2,6 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./css/reset.css" />
       <link rel="stylesheet" href="./css/style.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -272,16 +273,6 @@
             </div>
          </div>
       </footer>
-      <script>
-         let menu = document.getElementById("nav");
-         let navigate = menu.getElementsByClassName("href");
-         for (let i = 0; i < navigate.length; i++) {
-           navigate[i].addEventListener("click", function() {
-             let current = document.getElementsByClassName("active");
-             current[0].className = current[0].className.replace(" active", "");
-             this.className += " active";
-           });
-         }
-      </script>
+      
    </body>
 </html>

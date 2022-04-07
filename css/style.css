@@ -539,6 +539,12 @@ letter-spacing: -0.5px;
 		height: 65px;
     	padding: 23px 0px 12px 22px;
 	}
+	.owl-stage-outer {
+        width: 547px;
+        }
+        .owl-prev, .owl-next {
+        top: 65%;
+        }
 	.content-top {
 		background: #9A05EB 0px -70px no-repeat;
 		background-size: cover;
