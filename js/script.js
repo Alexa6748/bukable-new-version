@@ -38,7 +38,7 @@ const getFormData = (selector) => Object.fromEntries(new FormData(document.getEl
 
 $(document).ready(function (){
 
-    validateForm();
+    //validateForm();
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
