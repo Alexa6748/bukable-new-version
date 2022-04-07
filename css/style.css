@@ -612,38 +612,6 @@ margin: 0px 0px 34px;
         padding-top: 81px;
         font-family: "Poppins";
     }
-    .content-top h1 {
-        font-style: normal;
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 40px;
-        /* or 100% */
-        text-align: center;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-        padding-bottom: 26px;
-    }
-    .content-top p {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 25px;
-        /* or 167% */
-        text-align: center;
-        color: #FFFFFF;
-    }
-    .newimg {
-        height: auto;
-        min-width: 310px;
-        width: 100%;
-        position: relative;
-        z-index: 10;
-        top: 0px;
-        /* position: absolute; */
-        width: 324px;
-        height: 198px;
-        top: 0px;
-    }
     .description-items {
         flex-direction: column;
         gap: 25px;
@@ -676,15 +644,20 @@ margin: 0px 0px 34px;
         width: 150px;
     }
     .section-title {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 800;
-        font-size: 25px;
-        line-height: 30px;
-        /* or 120% */
-        text-align: center;
-        font-feature-settings: 'salt' on, 'liga' off;
-        color: #000000;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+align-items: center;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
     }
     .title {
         width: 100%;
@@ -694,9 +667,11 @@ margin: 0px 0px 34px;
         flex-direction: column;
         text-align: center;
         background-color: #F1E4FF;
+		gap: 36px
     }
     .sale-card {
         gap: 30px;
+		padding: 49px 15px;
     }
     .sale-card .icon {
         width: 40%;
