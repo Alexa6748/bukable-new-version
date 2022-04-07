@@ -13,6 +13,19 @@ header {
 	color: #9A05EB
 }
 
+.newimg img {
+    z-index: 10;
+    width: 1000px;
+    height: 614.8px;
+    top: -50px;
+	height: auto;
+    min-width: 310px;
+    width: 100%;
+    position: relative;
+    z-index: 10;   
+    top: -100px;
+}
+
 .form-button {
 	display: flex;
     flex-direction: row;
@@ -560,17 +573,22 @@ letter-spacing: -0.5px;
 		/* or 167% */
 
 		text-align: center;
-
+        
 		color: #FFFFFF;
 	}
 
-	.content-top .newimg img {
+	.newimg {
 		height: auto;
 		min-width: 310px;
-    	width: 100%;
+		width: 100%;
 		position: relative;
-        z-index: 10;
-        top: 50px;
+		z-index: 10;
+		top: 0px;
+		/* position: absolute; */
+		width: 324px;
+		height: 198px;
+		top: 0px;
+
 	}
 
 	.description-items {
