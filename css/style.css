@@ -194,12 +194,12 @@ header {
 
 .description-items__item p {
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 26px;
-    /* or 130% */
     font-feature-settings: 'salt' on, 'liga' off;
     color: #FFFFFF;
+    width: 310px;
 }
 
 .bg_1 {
@@ -219,7 +219,7 @@ header {
 
 .content-get-access {
     padding: 0 130px 44px;
-    gap: 46px;
+    gap: 70px;
     background-color: #F1E4FF;
 }
 
@@ -254,10 +254,9 @@ header {
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
     font-feature-settings: 'salt' on, 'liga' off;
-    /* Text / Gray 900 */
     color: #18191F;
+    width: 319px;
 }
 
 
@@ -495,7 +494,19 @@ footer .footer-bottom .social-links {
     font-weight: 800;
     font-size: 40px;
     line-height: 45px;
-    /* or 133% */
+    text-align: left;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #000000;
+    padding-bottom: 15px;
+    width: 576px;
+}
+
+.section-title_wall_of_love {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 45px;
     text-align: left;
     font-feature-settings: 'salt' on, 'liga' off;
     color: #000000;
@@ -527,6 +538,23 @@ footer .footer-bottom .social-links {
     line-height: 25px;
     /* or 139% */
     letter-spacing: -0.5px;
+    width: 636px;
+}
+
+.description-content-get-access_2 {
+    font-style: normal;
+    /* identical to box height, or 160% */
+    text-align: left;
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    letter-spacing: -0.5px;
+    width: 773px;
 }
 
 .link {
@@ -899,12 +927,12 @@ color: #18191F;
 
 @media screen and (min-width: 1200px) {
     .newimg img {
-        height: auto;
-        width: 70%;
+        height: 615px;
+        width: 1000px;
         z-index: 10;
         position: absolute;
         top: -298px;
-        padding: 0px 25px;
+        padding: 0px 13px;
     }
     .action-button {
         padding-top: 30px !important;
@@ -930,6 +958,7 @@ color: #18191F;
         line-height: 35px;
         letter-spacing: -0.5px;
         margin-bottom: 25px;
+        width: 996px;
     }
     .content-top h1 {
         font-weight: 900;
