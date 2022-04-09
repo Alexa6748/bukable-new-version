@@ -931,24 +931,31 @@ color: #FFFFFF;
         padding-bottom: 250px;
     }
     .content-top h1 {
-        font-style: normal;
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 40px;
-        /* or 100% */
-        text-align: center;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-        padding-bottom: 26px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
     }
     .content-top p {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 25px;
-        /* or 167% */
-        text-align: center;
-        color: #FFFFFF;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+text-align: center;
+letter-spacing: -0.5px;
+
+color: #FFFFFF;
+width: 813px;
     }
     .newimg {
         height: auto;
@@ -1096,15 +1103,15 @@ color: #FFFFFF;
         padding: 0 25px;
     }
     .content-top p {
-        font-size: 20px;
+        font-size: 19px;
         line-height: 35px;
         letter-spacing: -0.5px;
         margin-bottom: 25px;
-        width: 996px;
+        width: 976px;
     }
     .content-top h1 {
         font-weight: 900;
-        font-size: 54px;
+        font-size: 58px;
         line-height: 75px;
         letter-spacing: 0.5px;
         padding-bottom: 13px;
