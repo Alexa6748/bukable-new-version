@@ -898,6 +898,14 @@ color: #FFFFFF;
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
+    .newimg img {
+        height: 615px;
+        width: 800px;
+        z-index: 10;
+        position: absolute;
+        top: -298px;
+        padding: 0px 13px;
+    }
     header {
         height: 65px;
         padding: 23px 0px 12px 22px;
@@ -920,6 +928,7 @@ color: #FFFFFF;
         padding-right: 35px;
         padding-top: 81px;
         font-family: "Poppins";
+        padding-bottom: 250px;
     }
     .content-top h1 {
         font-style: normal;
@@ -943,15 +952,11 @@ color: #FFFFFF;
     }
     .newimg {
         height: auto;
-        min-width: 310px;
         width: 100%;
-        position: relative;
         z-index: 10;
+        position: relative;
         top: 0px;
-        /* position: absolute; */
-        width: 324px;
-        height: 198px;
-        top: 0px;
+        padding: 0 25px;
     }
     .description-items {
         flex-direction: column;
@@ -998,9 +1003,11 @@ color: #FFFFFF;
     .title {
         width: 100%;
     }
+    .light_box {
+        height: 360px;
+    }
     .content-get-access {
-        padding: 25px 13px;
-        flex-direction: column;
+        padding: 25px 13px 25px 13px;
         text-align: center;
         background-color: #F1E4FF;
     }
