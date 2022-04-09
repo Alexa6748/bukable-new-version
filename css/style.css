@@ -747,6 +747,17 @@ color: #000000;
     }
     .wall-of-love .wrapper .overviews__item .text {
         width: 90%;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #000000;
     }
     .form-wrapper {
         padding: 50px 41px;
@@ -878,8 +889,23 @@ color: #FFFFFF;
 @media screen and (min-width:768px) and (max-width:991px) {
     .action-button {
         padding-top: 30px !important;
-        padding-bottom: 200px;
+        padding-bottom: 180px;
         text-align: center;
+    }
+    .content-top h1 {
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 45px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
     }
     .content-get-access {
         flex-direction: column;
@@ -894,6 +920,15 @@ color: #FFFFFF;
     footer .footer-top .apps>div:first-child {
         color: #FFFFFF;
         padding-right: 1em;
+    }
+    .newimg img {
+        top: -177px;
+    }
+    .newimg {
+        height: 370px;
+    }
+    .coming_soon {
+        text-align: center;
     }
 }
 
@@ -974,9 +1009,7 @@ width: 813px;
         width: 100%;
         height: 100%;
     }
-    .description-content-get-access {
-        text-align: center;
-    }
+   
     .content-description {
         padding: 37px 13px;
     }
@@ -1000,26 +1033,31 @@ width: 813px;
         font-family: "Poppins";
         font-style: normal;
         font-weight: 800;
-        font-size: 25px;
+        font-size: 35px;
         line-height: 30px;
         /* or 120% */
-        text-align: center;
         font-feature-settings: 'salt' on, 'liga' off;
         color: #000000;
     }
     .title {
         width: 100%;
     }
+    .content-get-access .title {
+        width: 100vh;
+        padding-bottom: 9px;
+        padding-top: 46px;
+    }
     .light_box {
         height: 360px;
     }
     .content-get-access {
-        padding: 25px 13px 25px 13px;
+        gap: 0px;
         text-align: center;
         background-color: #F1E4FF;
     }
     .sale-card {
         gap: 30px;
+        text-align: left;
     }
     .sale-card .icon {
         width: 40%;
