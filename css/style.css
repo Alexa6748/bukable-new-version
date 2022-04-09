@@ -199,7 +199,7 @@ header {
     line-height: 26px;
     font-feature-settings: 'salt' on, 'liga' off;
     color: #FFFFFF;
-    width: 310px;
+    width: fit-content;
 }
 
 .bg_1 {
@@ -437,7 +437,7 @@ header {
 /*footer*/
 
 footer {
-    background: url("../img/footer_bg.svg") #000000 no-repeat;
+    background: black;
 }
 
 footer .footer-top {
@@ -828,7 +828,7 @@ padding-bottom: 5px;
         font-size: 9px;
     }
     footer {
-        background: url(../img/footer_bg_mobile.svg) #000000 center bottom no-repeat;
+        background:black;
         background-size: contain;
     }
     footer .footer-top {
@@ -884,6 +884,7 @@ color: #FFFFFF;
     .apps-content {
         padding-bottom: 38px;
     }
+    
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -1074,7 +1075,7 @@ width: 813px;
         font-size: 9px;
     }
     footer {
-        background: url(../img/footer_bg_mobile.svg) #000000 center bottom no-repeat;
+        background:black ;
         background-size: contain;
     }
     footer .footer-top {
