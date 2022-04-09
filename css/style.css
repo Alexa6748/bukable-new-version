@@ -568,6 +568,25 @@ footer .footer-bottom .social-links {
 }
 
 @media screen and (max-width:767px) {
+    .getEarly {
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 24px;
+/* or 200% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.16px;
+
+color: #FFFFFF;
+padding: 9px 15px;
+    }
+
+    .newimg img {
+        top: -80px;
+    }
 	.content-top h1 {
 		font-family: 'Poppins';
 font-style: normal;
@@ -614,13 +633,64 @@ margin: 0px 0px 34px;
     }
     .action-button {
         padding-top: 30px !important;
-        padding-bottom: 98px;
+        padding-bottom: 70px;
         text-align: center;
     }
     header {
         height: 65px;
         padding: 23px 0px 12px 22px;
     }
+    .sale-card .heading {
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #000000;
+    }
+    .sale-card .text {
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #000000;
+width: 230px;
+height: 67px;
+    }
+
+    .description-content-get-access_2 {
+        width: 286px;
+height: 56px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+    }
+
     .owl-stage-outer {
         width: 547px;
     }
@@ -642,8 +712,9 @@ margin: 0px 0px 34px;
     }
     .description-items {
         flex-direction: column;
-        gap: 25px;
+        gap: 15px;
         padding-bottom: 30px;
+        padding-top: 20px;
     }
     .description-items__item {
         width: 100%;
@@ -651,9 +722,22 @@ margin: 0px 0px 34px;
     }
     .description-content-get-access {
         text-align: center;
+        width: 283px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
     }
     .content-description {
-        padding: 37px 13px;
+        padding: 110px 13px 0px 13px;
     }
     .wall-of-love .wrapper {
         padding: 64px 15px;
@@ -686,30 +770,44 @@ font-feature-settings: 'salt' on, 'liga' off;
 /* Text / Gray 900 */
 
 color: #18191F;
+width: 322px;
+padding-bottom: 5px;
     }
     .title {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .content-get-access {
-        padding: 25px 13px;
+        padding: 0px 13px 25px 13px;
         flex-direction: column;
         text-align: center;
         background-color: #F1E4FF;
 		gap: 36px
     }
     .sale-card {
-        gap: 30px;
-		padding: 49px 15px;
+        gap: 15px;
+        padding: 15px 0px 15px 0px;
     }
     .sale-card .icon {
         width: 40%;
     }
     .sale-card .icon img {
-        width: 100%;
+        width: 50px;
+        height: 50px;
     }
     .sale-img img {
-        width: 100%;
-        height: auto;
+        width: 325px;
+        height: 200px;
+        position: relative;
+        top: 55px;
+    }
+    .sale-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
     }
     .terms,
     .terms a {
@@ -732,6 +830,8 @@ color: #18191F;
     }
     footer .footer-logo {
         padding-bottom: 44px;
+        display: flex;
+        justify-content: center;
     }
     footer .apps {
         font-weight: 500;
@@ -750,7 +850,25 @@ color: #18191F;
         padding: 10px 0px;
     }
     footer .rights {
-        font-size: 12px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 20px;
+/* identical to box height, or 200% */
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #FFFFFF;
+    }
+    .coming_soon {
+        text-align: center;
+        padding-right: 0px !important;
+        padding-bottom: 13px;
+    }
+    .apps-content {
+        padding-bottom: 38px;
     }
 }
 
