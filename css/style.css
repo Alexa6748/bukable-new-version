@@ -221,6 +221,9 @@ header {
     padding: 0 130px 44px;
     gap: 70px;
     background-color: #F1E4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-get-access .title {
@@ -877,6 +880,16 @@ color: #FFFFFF;
         padding-top: 30px !important;
         padding-bottom: 200px;
         text-align: center;
+    }
+    .content-get-access {
+        flex-direction: column;
+    }
+    .description-items {
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        align-items: center;
     }
 }
 
