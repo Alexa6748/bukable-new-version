@@ -335,7 +335,7 @@ header {
 /*Form*/
 
 .form-wrapper {
-    padding: 70px 455px;
+    padding: 70px 0px;
 }
 
 .form-content {
@@ -891,6 +891,10 @@ color: #FFFFFF;
         padding-top: 20px;
         align-items: center;
     }
+    footer .footer-top .apps>div:first-child {
+        color: #FFFFFF;
+        padding-right: 1em;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -971,7 +975,7 @@ color: #FFFFFF;
         width: 90%;
     }
     .form-wrapper {
-        padding: 50px 41px;
+        padding: 50px 0px;
     }
     .form-wrapper .action {
         display: flex;
