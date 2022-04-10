@@ -1,6 +1,5 @@
-/*header*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 html,
 body {
     font-family: 'Poppins', sans-serif;
@@ -28,10 +27,17 @@ header {
     display: flex;
     flex-wrap: wrap;
     background: linear-gradient(105.18deg, #9A05EB -2.04%, #9A05EB 107.42%);
-    padding: 50px 126px 32px;
     border-bottom: 1px solid #ffffff1a;
 }
-
+header a {
+    text-decoration: none;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    border: 2px solid #9A05EB;
+    background: #fff !important;
+    position: relative;
+    top: 2px;
+}
 .getEarly {
     font-family: 'Poppins';
     font-style: normal;
@@ -79,10 +85,6 @@ header {
     top: 448px;
     background: #9A05EB;
     border-radius: 30px;
-}
-
-.logo {
-    padding-right: 72px;
 }
 
 .menu {
@@ -199,7 +201,7 @@ header {
     line-height: 26px;
     font-feature-settings: 'salt' on, 'liga' off;
     color: #FFFFFF;
-    width: fit-content;
+    width: 310px;
 }
 
 .bg_1 {
@@ -437,11 +439,11 @@ header {
 /*footer*/
 
 footer {
-    background: black;
+    background: url("../img/footer_bg.svg") #000000 no-repeat;
 }
 
 footer .footer-top {
-    padding: 39px 126px 31px;
+    padding: 39px 100px 31px;
     border-bottom: 1px solid #ffffff1a;
 }
 
@@ -480,10 +482,14 @@ footer .footer-bottom .social-links {
     font-weight: 500 !important;
     font-size: 14px !important;
     line-height: 20px !important;
-    /* identical to box height, or 143% */
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Default / White */
     background-color: #9A05EB;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.radius-form-button:hover {
+    background-color: #7507b1;
+    color: #fff;
 }
 
 .radius-30 {
@@ -571,6 +577,14 @@ footer .footer-bottom .social-links {
 }
 
 @media screen and (max-width:767px) {
+    .navbar {
+        display: flex;
+        justify-content: flex-end !important;
+    }
+    .btn:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
     .getEarly {
         font-family: 'Poppins';
 font-style: normal;
@@ -640,60 +654,48 @@ margin: 0px 0px 34px;
         text-align: center;
     }
     header {
-        height: 65px;
-        padding: 23px 0px 63px 22px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
     }
     .sale-card .heading {
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-/* identical to box height, or 100% */
-
-text-align: center;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-feature-settings: 'salt' on, 'liga' off;
-
-color: #000000;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #000000;
     }
     .sale-card .text {
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
-/* or 167% */
-
-text-align: center;
-font-feature-settings: 'salt' on, 'liga' off;
-
-color: #000000;
-width: 230px;
-height: 67px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        width: 230px;
+        height: 67px;
     }
-
     .description-content-get-access_2 {
         width: 286px;
-height: 56px;
-
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-/* or 133% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-
+        height: 56px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
     }
-
     .owl-stage-outer {
         width: 547px;
     }
@@ -720,8 +722,16 @@ color: #000000;
         padding-top: 20px;
     }
     .description-items__item {
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        padding: 128px 31px;
+    }
+    .description-items__item p {
         width: 100%;
-        height: 100%;
+        word-wrap: break-word;
+        word-break: break-all;
     }
     .description-content-get-access {
         text-align: center;
@@ -746,6 +756,7 @@ color: #000000;
         padding: 64px 15px;
     }
     .wall-of-love .wrapper .overviews__item .text {
+        height: auto !important;
         width: 90%;
         font-family: 'Poppins';
 font-style: normal;
@@ -812,7 +823,7 @@ padding-bottom: 5px;
         height: 50px;
     }
     .sale-img img {
-        width: 320px;
+        width: 325px;
         height: 200px;
         position: relative;
         top: 55px;
@@ -828,7 +839,7 @@ padding-bottom: 5px;
         font-size: 9px;
     }
     footer {
-        background:black;
+        background: url(../img/footer_bg_mobile.svg) #000000 center bottom no-repeat;
         background-size: contain;
     }
     footer .footer-top {
@@ -865,16 +876,16 @@ padding-bottom: 5px;
     }
     footer .rights {
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-line-height: 20px;
-/* identical to box height, or 200% */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 20px;
+        /* identical to box height, or 200% */
 
-text-align: center;
-font-feature-settings: 'salt' on, 'liga' off;
+        text-align: center;
+        font-feature-settings: 'salt' on, 'liga' off;
 
-color: #FFFFFF;
+        color: #FFFFFF;
     }
     .coming_soon {
         text-align: center;
@@ -884,7 +895,6 @@ color: #FFFFFF;
     .apps-content {
         padding-bottom: 38px;
     }
-    
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -1075,7 +1085,7 @@ width: 813px;
         font-size: 9px;
     }
     footer {
-        background:black ;
+        background: url(../img/footer_bg_mobile.svg) #000000 center bottom no-repeat;
         background-size: contain;
     }
     footer .footer-top {

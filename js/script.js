@@ -63,23 +63,22 @@ $(document).ready(function (){
         }
     });
 
+    $("a.hex").click(function() {
 
-    $("#scroll").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#contact").offset().top
-        }, 2000);
-    });
-
-    $('#nav li').click(function() {
-        let active = $(this).data('link');
-        $('p.content').toggle();
-        const select = document.querySelector('#contact select').getElementsByTagName('option');
-        for (let i = 0; i < select.length; i++) {
-            if (select[i].value === active) select[i].selected = true;
-        }
-        console.log(active);
-        console.log(select);
-    });
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top
+        }, {
+            duration: 200,
+            easing: "swing"
+        });
+        return false;
+    });  
+    
+    // $("#scroll").click(function (){
+    //     $('html, body').animate({
+    //         scrollTop: $("#contact").offset().top
+    //     }, 2000);
+    // });
 
 })
 
