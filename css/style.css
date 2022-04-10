@@ -1149,10 +1149,10 @@ width: 813px;
         color: #FFFFFF;
     }
     footer .footer-bottom {
-        justify-content: center !important;
+        justify-content: space-between !important;
         flex-direction: row;
         align-items: center;
-        padding: 10px 0px;
+        padding: 10px 100px;
     }
     footer .rights {
         font-size: 12px;
@@ -1200,5 +1200,8 @@ width: 813px;
         line-height: 75px;
         letter-spacing: 0.5px;
         padding-bottom: 13px;
+    }
+    footer .footer-bottom {
+        padding: 15px 100px 31px;
     }
 }
