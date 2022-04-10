@@ -731,7 +731,6 @@ margin: 0px 0px 34px;
     .description-items__item p {
         width: 100%;
         word-wrap: break-word;
-        word-break: break-all;
     }
     .description-content-get-access {
         text-align: center;
