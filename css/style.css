@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap') screen;
+@import url('https://glyphsearch.com/bower_components/ionicons/css/ionicons.css') screen;
 
 html,
 body {
@@ -32,6 +33,19 @@ header {
 header a {
     text-decoration: none;
 }
+
+.down {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    right: 19px;
+    top: 38px;
+}
+
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     border: 2px solid #9A05EB;
     background: #fff !important;
@@ -66,7 +80,6 @@ header a {
     height: 614.8px;
     top: -50px;
     height: auto;
-    min-width: 310px;
     width: 100%;
     position: relative;
     z-index: 10;
@@ -274,7 +287,10 @@ header a {
 .wall-of-love .wrapper {
     padding: 64px 165px 96px;
 }
-
+.nav-link {
+    font-size: 18px;
+    font-weight: 700 !important;
+}
 .overviews {
     padding-top: 40px;
     gap: 30px;
@@ -314,10 +330,7 @@ header a {
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 156% */
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Text / Gray 900 */
     color: #18191F;
 }
 
@@ -326,10 +339,7 @@ header a {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Text / Gray 800 */
     color: #474A57;
 }
 
@@ -440,6 +450,8 @@ header a {
 
 footer {
     background: url("../img/footer_bg.svg") #000000 no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
 }
 
 footer .footer-top {
@@ -474,20 +486,58 @@ footer .footer-bottom .social-links {
 
 
 /*Commons*/
-
-.radius-form-button {
-    width: 158px;
+#contact label {
+    cursor: pointer;
+}
+#contact option {
+    background-color: #9a05eb;
+    color: #e6e1eb;
+}
+#contact select > option:hover {
+    background-color: yellow;
+}
+#contact select:focus > option:checked { 
+    background: #e6e1eb !important;
+    color: #000 !important;
+}
+#contact .form-select:focus {
+    border-color: #9a05eb !important;
+    outline: 0;
+    box-shadow: none;
+}
+#contact .form-control:focus {
+    border-color: #9a05eb !important;
+    outline: 0;
+    box-shadow: none;
+}
+#contact .form-check-input:focus {
+    border-color: #9a05eb;
+    outline: 0;
+    box-shadow: none;
+}
+#contact a {
+    color: #9a05eb;
+}
+#contact a:hover {
+    color: #9a05eb;
+    text-decoration: none;
+}
+#contact .form-check-input:checked {
+    background-color: #9a05eb;
+    border-color: #9a05eb;
+}
+button.form-button-access {
     border-radius: 30px;
-    padding: 15px 24px;
-    font-weight: 500 !important;
-    font-size: 14px !important;
-    line-height: 20px !important;
+    padding: 14px 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
     background-color: #9A05EB;
     text-align: center;
     color: #fff;
     text-decoration: none;
 }
-.radius-form-button:hover {
+button.form-button-access:hover {
     background-color: #7507b1;
     color: #fff;
 }
@@ -503,11 +553,8 @@ footer .footer-bottom .social-links {
     font-weight: 800;
     font-size: 40px;
     line-height: 45px;
-    text-align: left;
-    font-feature-settings: 'salt' on, 'liga' off;
     color: #000000;
     padding-bottom: 15px;
-    width: 576px;
 }
 
 .section-title_wall_of_love {
@@ -517,7 +564,6 @@ footer .footer-bottom .social-links {
     font-size: 40px;
     line-height: 45px;
     text-align: left;
-    font-feature-settings: 'salt' on, 'liga' off;
     color: #000000;
     padding-bottom: 15px;
 }
@@ -527,43 +573,31 @@ footer .footer-bottom .social-links {
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
-    /* identical to box height, or 160% */
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Text / Gray 900 */
     color: #18191F;
 }
 
 .description-content-get-access {
     font-style: normal;
-    /* identical to box height, or 160% */
     text-align: left;
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Text / Gray 900 */
     color: #18191F;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    /* or 139% */
     letter-spacing: -0.5px;
     width: 636px;
 }
 
 .description-content-get-access_2 {
     font-style: normal;
-    /* identical to box height, or 160% */
     text-align: left;
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Text / Gray 900 */
     color: #18191F;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    /* or 139% */
     letter-spacing: -0.5px;
-    width: 773px;
 }
 
 .link {
@@ -575,8 +609,27 @@ footer .footer-bottom .social-links {
     line-height: 20px;
     padding-left: 5px;
 }
+.form-select, .form-control {
+    background: #F4F5F7 !important;
+}
+
+
 
 @media screen and (max-width:767px) {
+    .copyright {
+        font-size: 11px !important;
+    }
+    .app {
+        width: 123px;
+        /* height: 32px; */
+    }
+    .section-title_wall_of_love {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .wall-of-love .text-description {
+        font-size: 12px;
+    }
     .navbar {
         display: flex;
         justify-content: flex-end !important;
@@ -587,18 +640,15 @@ footer .footer-bottom .social-links {
     }
     .getEarly {
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 24px;
-/* or 200% */
-
-display: flex;
-align-items: center;
-letter-spacing: -0.16px;
-
-color: #FFFFFF;
-padding: 9px 15px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.16px;
+        color: #FFFFFF;
+        padding: 9px 15px;
     }
 
     .newimg img {
@@ -606,34 +656,28 @@ padding: 9px 15px;
     }
 	.content-top h1 {
 		font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 28px !important;
-line-height: 35px !important;
-/* or 125% */
-padding: 0px 0px 10px !important;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.5px;
-width: 300px;
-color: #FFFFFF;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px !important;
+        line-height: 35px !important;
+        padding: 0px 0px 10px !important;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
 	}
 	.content-top p {
 		font-family: 'Poppins';
-font-style: normal;
-font-weight: 500 !important;
-font-size: 13px !important;
-line-height: 20px !important;
-width: 279px;
-/* or 150% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-margin: 0px 0px 34px;
+        font-style: normal;
+        font-weight: 500 !important;
+        font-size: 13px !important;
+        line-height: 20px !important;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px 0px 34px;
 	}
 	.light_box {
 		height: 0px;
@@ -684,16 +728,11 @@ margin: 0px 0px 34px;
         height: 67px;
     }
     .description-content-get-access_2 {
-        width: 286px;
-        height: 56px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
         line-height: 16px;
-        display: flex;
-        align-items: center;
-        text-align: center;
         color: #000000;
     }
     .owl-stage-outer {
@@ -710,8 +749,8 @@ margin: 0px 0px 34px;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-top: 81px;
         font-family: "Poppins";
     }
@@ -726,7 +765,16 @@ margin: 0px 0px 34px;
         border-radius: 20px;
         width: auto;
         height: auto;
-        padding: 128px 31px;
+        padding: 90px 26px 50px;
+    }
+    .bg_1 {
+        background: url(../img/bg_1.svg) 24px 40px #000000 no-repeat;
+    }
+    .bg_2 {
+        background: url(../img/bg_2.svg) 24px 0px #000000 no-repeat;
+    }
+    .bg_3 {
+        background: url(../img/bg_3.svg) 24px 24px #000000 no-repeat;
     }
     .description-items__item p {
         width: 100%;
@@ -736,20 +784,17 @@ margin: 0px 0px 34px;
         text-align: center;
         width: 283px;
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
     }
     .content-description {
-        padding: 110px 13px 0px 13px;
+        padding: 90px 13px 0px 13px;
     }
     .wall-of-love .wrapper {
         padding: 64px 15px;
@@ -758,21 +803,12 @@ color: #000000;
         height: auto !important;
         width: 90%;
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-
-text-align: center;
-font-feature-settings: 'salt' on, 'liga' off;
-
-color: #000000;
-    }
-    .overviews {
-        padding-top: 20px;
-        gap: 30px;
-        overflow: hidden;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
     }
     .form-wrapper {
         padding: 50px 41px;
@@ -786,21 +822,14 @@ color: #000000;
     }
     .section-title {
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 30px;
-/* or 150% */
-
-align-items: center;
-text-align: center;
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-width: 322px;
-padding-bottom: 5px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
+        color: #18191F;
+        padding-bottom: 20px;
     }
     .title {
         width: 100%;
@@ -827,7 +856,7 @@ padding-bottom: 5px;
         height: 50px;
     }
     .sale-img img {
-        width: 325px;
+        width: 260px;
         height: 200px;
         position: relative;
         top: 55px;
@@ -837,37 +866,6 @@ padding-bottom: 5px;
         justify-content: center;
         align-items: center;
         height: 130px;
-    }
-    .section-title_wall_of_love {
-        font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 26px;
-/* or 320% */
-
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'salt' on, 'liga' off;
-
-color: #000000;
-justify-content: center;
-padding-bottom: 0px;
-    }
-    .text-description {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 32px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        font-feature-settings: 'salt' on, 'liga' off;
-        color: #000000;
-        justify-content: center;
-        gap: 4px;
     }
     .terms,
     .terms a {
@@ -897,10 +895,8 @@ padding-bottom: 0px;
         font-weight: 500;
         font-size: 12px;
         line-height: 28px;
-        /* or 233% */
         display: flex;
         align-items: center;
-        font-feature-settings: 'salt' on, 'liga' off;
         color: #FFFFFF;
     }
     footer .footer-bottom {
@@ -915,11 +911,7 @@ padding-bottom: 0px;
         font-weight: 500;
         font-size: 10px;
         line-height: 20px;
-        /* identical to box height, or 200% */
-
         text-align: center;
-        font-feature-settings: 'salt' on, 'liga' off;
-
         color: #FFFFFF;
     }
     .coming_soon {
@@ -1148,10 +1140,10 @@ width: 813px;
         color: #FFFFFF;
     }
     footer .footer-bottom {
-        justify-content: space-between !important;
+        justify-content: center !important;
         flex-direction: row;
         align-items: center;
-        padding: 10px 100px;
+        padding: 10px 0px;
     }
     footer .rights {
         font-size: 12px;
@@ -1159,6 +1151,9 @@ width: 813px;
 }
 
 @media screen and (min-width: 1200px) {
+    .app {
+        height: 40px;
+    }
     .newimg img {
         height: 615px;
         width: 1000px;
@@ -1199,8 +1194,5 @@ width: 813px;
         line-height: 75px;
         letter-spacing: 0.5px;
         padding-bottom: 13px;
-    }
-    footer .footer-bottom {
-        padding: 15px 100px 31px;
     }
 }
